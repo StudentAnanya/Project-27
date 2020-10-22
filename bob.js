@@ -19,7 +19,7 @@ class Bob {
       push()
       translate(Paperpos.x, Paperpos.y);
       rectMode(CENTER)
-      fill("purple")
+      fill(255,0,255)
       ellipse(0, 0, this.r,this.r);
       pop()
     }
